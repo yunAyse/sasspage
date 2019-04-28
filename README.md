@@ -19,9 +19,7 @@ Cet exercice consiste à construire une interface web de type onepage, puis à c
 **Mise en forme en CSS**
 
 1- Choisissez deux couleurs de base ou utilisez les mêmes que le modèle : #00c1db et #008da0.
-2- Reproduisez la mise en forme illustrée ci-dessous via CSS.
-
-<iframe height="420" style="width: 100%;" scrolling="no" title="SassPage" src="//codepen.io/PedroIdmkr/fullembedgrid/axMyJY/?type=embed&animations=run" frameborder="no" allowtransparency="true" allowfullscreen="true"></iframe>
+2- Reproduisez l'interface visible à cette [adresse](https://codepen.io/PedroIdmkr/full/JVzyLm)
 
 **Mise en place de SASS**
 
