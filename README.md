@@ -27,17 +27,17 @@ Cet exercice consiste à construire une interface web de type onepage, puis à c
 
 1- Choisissez deux couleurs de base ou utilisez les mêmes que le modèle : #00c1db et #008da0.
 
-2- Reproduisez l'interface visible à cette [adresse](https://codepen.io/PedroIdmkr/full/JVzyLm)
+2- Reproduisez l'interface visible à cette [adresse](https://codepen.io/PedroIdmkr/full/JVzyLm).
 
-**Mise en place de SASS**
+3- Vérifiez et testez votre intégration.
+
+**Mise en place de SCSS**
 
 1- Créez un dossier scss dans le dossier racine de votre projet.
 
 2- Créez un nouveau fichier styles.scss dans le dossier scss.
 
 3- Copiez / collez le contenu du fichier style.css dans votre fichier style.scss.
-
-4- Paramétrez votre projet afin de compiler automatiquement le fichier styles.scss sous le nom styles.css dans le dossier css.
 
 **Conversion en SCSS**
 
@@ -50,3 +50,11 @@ Cet exercice consiste à construire une interface web de type onepage, puis à c
 4- Créez un mixin pour gérer le dégradé à partir de deux couleurs passées en paramètres.
 
 5- Isolez votre mixin dans un nouveau fichier partiel.
+
+**Compilation en CSS**
+
+1- Paramétrez votre projet afin de compiler automatiquement le fichier styles.scss sous le nom styles.css dans le dossier css.
+
+2- Videz votre fichier CSS et lancez la comilation
+
+3- Vérifiez et testez votre intégration 
