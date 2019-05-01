@@ -3,6 +3,10 @@ Cet exercice consiste à construire une interface web de type onepage, puis à c
 
 ---
 
+## !important
+
+**Vous n'utiliserez pas de framework CSS, le but de cet exercice est d'intégrer "from scratch" une interface simple**
+
 ## Consignes
 
 **Préparation de l’environnement de travail**
