@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;700&display=swap");
+@import url("../scss/partials/colors.scss");
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Hanken Grotesk; }
+
+.logo {
+  z-index: 999;
+  position: absolute;
+  top: 5%;
+  left: 6%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 28px;
+  font-weight: 300;
+  color: #313131; }
+  .logo > span {
+    background-color: #fff;
+    border: 1px solid #008da0;
+    color: #008da0;
+    font-size: 32px;
+    font-weight: 300;
+    padding: 8px;
+    border-radius: 32px;
+    position: fixed;
+    left: 16px; }
+
+.home {
+  position: relative;
+  min-height: 100vh;
+  background: radial-gradient(#00bad3 20%, #008da0);
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff; }
+  .home a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+    padding: 10px; }
+  .home .welcome {
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly; }
+    .home .welcome p {
+      font-weight: 300; }
+  .home h1 {
+    border-bottom: 2px dotted #fff;
+    width: 90%;
+    text-align: center;
+    font-size: 52px;
+    padding-bottom: 30px; }
+
+#services {
+  padding: 7%; }
+  #services h2 {
+    color: #008da0; }
+  #services > div {
+    display: flex;
+    gap: 20px; }
+  #services .service-block {
+    margin: 30px 0; }
+    #services .service-block .service-img {
+      width: 340px;
+      height: 140px;
+      background: #d9d9d9; }
+    #services .service-block h3 {
+      margin: 16px 0;
+      color: #008da0;
+      text-align: center; }
+    #services .service-block p {
+      color: #464646; }
+
+#contacts {
+  background-color: #d9d9d9;
+  padding: 7%;
+  width: 100%; }
+  #contacts form {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; }
+    #contacts form input,
+    #contacts form textarea {
+      border: 1px solid #008da0;
+      border-radius: 6px;
+      padding: 10px; }
+      #contacts form input:focus, #contacts form input:focus,
+      #contacts form textarea:focus,
+      #contacts form textarea:focus {
+        background-color: #008da0;
+        border: #000;
+        color: #fff; }
+    #contacts form label {
+      color: #464646;
+      font-size: 18px;
+      font-weight: 300; }
+    #contacts form .btn {
+      background-color: #008da0;
+      color: #fff;
+      width: 25%;
+      margin: auto; }
+
+footer {
+  background-color: #00606d;
+  padding: 1%;
+  text-align: center;
+  color: #008da0;
+  font-size: 12px; }

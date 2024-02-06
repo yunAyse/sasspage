@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;700&display=swap");
+
+@import url("../scss/partials/colors.scss");
+
+// -------
+// Reset
+// -------
+
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Hanken Grotesk;
+}
+
+// --------
+
+.logo {
+  z-index: 999;
+  position: absolute;
+  top: 5%;
+  left: 6%;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-size: 28px;
+  font-weight: 300;
+
+  color: #313131;
+
+  & > span {
+    background-color: $clr-white;
+    border: 1px solid $clr-blue;
+    color: $clr-blue;
+    font-size: 32px;
+    font-weight: 300;
+
+    padding: 8px;
+    border-radius: 32px;
+
+    position: fixed;
+    left: 16px;
+  }
+}
+
+.home {
+  position: relative;
+  min-height: 100vh;
+
+  @include background-gradient;
+
+  padding: 2%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: $clr-white;
+
+  a {
+    text-decoration: none;
+    color: $clr-white;
+
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+
+    padding: 10px;
+  }
+
+  .welcome {
+    width: 90%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    p {
+      font-weight: 300;
+    }
+  }
+
+  h1 {
+    border-bottom: 2px dotted $clr-white;
+    width: 90%;
+    text-align: center;
+    font-size: 52px;
+
+    padding-bottom: 30px;
+  }
+}
+
+// Servie Section7
+
+#services {
+  padding: 7%;
+
+  h2 {
+    color: #008da0;
+  }
+
+  & > div {
+    display: flex;
+    gap: 20px;
+  }
+
+  .service-block {
+    margin: 30px 0;
+
+    .service-img {
+      width: 340px;
+      height: 140px;
+
+      background: #d9d9d9;
+    }
+
+    h3 {
+      margin: 16px 0;
+      color: $clr-blue;
+
+      text-align: center;
+    }
+
+    p {
+      color: #464646;
+    }
+  }
+}
+
+#contacts {
+  background-color: #d9d9d9;
+
+  padding: 7%;
+  width: 100%;
+
+  form {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    input,
+    textarea {
+      border: 1px solid $clr-blue;
+      border-radius: 6px;
+
+      padding: 10px;
+
+      &:focus,
+      &:focus {
+        background-color: $clr-blue;
+        border: $clr-black;
+        color: $clr-white;
+      }
+    }
+
+    label {
+      color: #464646;
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+    .btn {
+      background-color: $clr-blue;
+      color: $clr-white;
+
+      width: 25%;
+      margin: auto;
+    }
+  }
+}
+
+footer {
+  background-color: $clr-dark-blue;
+  padding: 1%;
+  text-align: center;
+  color: $clr-blue;
+  font-size: 12px;
+}

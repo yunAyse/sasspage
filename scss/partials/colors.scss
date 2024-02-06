@@ -1,0 +1,11 @@
+$clr-white: #fff;
+$clr-blue: #008da0;
+$clr-grey: #464646;
+$clr-black: #000;
+
+$clr-light-blue: lighten($clr-blue, 10%);
+$clr-dark-blue: darken($clr-blue, 10%);
+
+@mixin background-gradient {
+  background: radial-gradient($clr-light-blue 20%, $clr-blue);
+}
